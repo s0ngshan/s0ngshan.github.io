@@ -1,0 +1,21 @@
+/* ============================================
+   自定义样式（由 _config.anzhiyu.yml 的 inject.head 引入）
+   ============================================ */
+
+/* 关于页：隐藏不想要的卡片 */
+.author-content-item.personalities,
+.author-content-item.myphoto,
+.author-content-item.game-yuanshen,
+.author-content-item.comic-content,
+.author-content-item.like-technology,
+.author-content-item.like-music {
+  display: none !important;
+}
+
+/* 归档（隧道）页顶部横幅：该页由生成器产出、没有独立 md 文件，只能全局加图 */
+#page-header.not-home-page {
+  background-image: url('/img/banners/archives.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
